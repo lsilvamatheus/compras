@@ -1,5 +1,8 @@
+type Client{
+    name: String,
+    email:String
+}
+
 type Query{
-
     queryTest:String
-
 }
