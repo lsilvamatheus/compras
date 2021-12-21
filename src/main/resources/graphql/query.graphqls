@@ -4,5 +4,6 @@ type Client{
 }
 
 type Query{
-    queryTest:String
+    queryTest: String
+    clientQueryTest: Client
 }
