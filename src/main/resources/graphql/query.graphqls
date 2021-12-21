@@ -6,4 +6,6 @@ type Client{
 type Query{
     queryTest: String
     clientQueryTest: Client
+    clientsQueryTest: [Client]
+    findClientByNameQueryTest(name: String): Client
 }
